@@ -1,18 +1,12 @@
 specVersion: 0.34.0
 name: my-function
-runtime: go
+runtime: python
 registry: docker.io/wei840222
 image: ""
 imageDigest: ""
-created: 2022-11-18T22:47:13.4262585+08:00
+created: 2022-11-18T22:57:13.6082185+08:00
 invocation:
   format: http
-# build:
-#   buildpacks:
-#   - paketo-buildpacks/go-dist
-#   - ghcr.io/boson-project/go-function-buildpack:tip
-#   builder: ""
-#   buildEnvs: []
 build: git
 git:
   url: https://github.com/wei840222/my-function.git
